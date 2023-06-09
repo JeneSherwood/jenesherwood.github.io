@@ -14,18 +14,18 @@ tags:
 > 
 > 感谢[Huxpro](https://github.com/huxpro)提供的博客模板
 > 
-> [我的的博客](https://flyingwzb.github.io)
+> [我的的博客](https://wscaoshuai.github.io)
 
 # 前言
-从 Jekyll 到 GitHub Pages 中间踩了许多坑，终于把我的个人博客[Cao Shuai Blog](https://flyingwzb.github.io)搭建出来了。。。
+从 Jekyll 到 GitHub Pages 中间踩了许多坑，终于把我的个人博客[Cao Shuai Blog](https://wscaoshuai.github.io)搭建出来了。。。
 
 本教程针对的是不懂技术又想搭建个人博客的小白，操作简单暴力且快速。当然懂技术那就更好了。
 
 看看看博客的主页样式：
-[![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/readme-home.png?raw=true)](https://flyingwzb.github.io/)
+[![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/readme-home.png?raw=true)](https://wscaoshuai.github.io/)
 
 在手机上的布局：
-[![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/post-home-h5.png?raw=true)](https://flyingwzb.github.io/)
+[![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/post-home-h5.png?raw=true)](https://wscaoshuai.github.io/)
 
 废话不多说了，开始进入正文。
 
@@ -40,28 +40,28 @@ tags:
 
 ### 拉取我的博客模板
 
-注册完成后搜索 `flyingwzb.github.io` 进入[我的仓库](https://github.com/flyingwzb/flyingwzb.github.io)
+注册完成后搜索 `flyingwzb.github.io` 进入[我的仓库](https://github.com/wscaoshuai/wscaoshuai.github.io)
 
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-001.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-001.png?raw=true)
 点击右上角的 **Fork** 将我的仓库拉倒你的账号下
 
 稍等一下，点击刷新，你会看到**Fork**了成功的页面
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-002.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-002.png?raw=true)
 
 ### 修改仓库名
 
 点击**settings**进入设置
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-003.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-003.png?raw=true)
 
 <p id = "Rename"></p>
 修改仓库名为 `你的Github账号名.github.io`，然后 Rename
 
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-004.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-004.png?raw=true)
 
 这时你在在浏览器中输入 `你的Github账号名.github.io` 例如:`flyingwzb.github.io`
 
 你将会看到如下界面
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/readme-home.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/readme-home.png?raw=true)
 
 说明已经成功一半了😀。。。当然，还需要修改博客的配置才能变成你的博客。
 
@@ -106,13 +106,13 @@ tags:
 ### 修改博客配置
 
 来到你的仓库，找到`_config.yml`文件,这是网站的全局配置文件。
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-005.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-005.png?raw=true)
 
 点击修改
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-006.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-006.png?raw=true)
 
 然后编辑`_config.yml`的内容
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-007.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-007.png?raw=true)
 
 接下来我们来详细说说以下配置文件的内容：
 
@@ -125,7 +125,7 @@ header-img: img/post-bg-rwd.jpg  	# 显示在首页的背景图片
 email: You@gmail.com	            # 个人邮箱
 description: "You Blog"  			# 网站介绍
 keyword: "Cao Shuai, Cao Shuai Blog, 王志彪的博客, flyingwzb, 王志彪, Java, golang" #关键词
-url: "https://flyingwzb.github.io"  # 这个就是填写你的博客地址
+url: "https://wscaoshuai.github.io"  # 这个就是填写你的博客地址
 baseurl: ""                         # 这个我们不用填写
 ```
 #### 侧边栏
@@ -173,7 +173,7 @@ jianshu_username:	jianshu_id
 disqus_username: flyingwzb
 ```
 
-> 很对人反映 Disqus 评论插件加载不出来，因为 Disqus 在国内加载缓慢，所以我新集成了 Gitalk 评论插件（感谢[@FeDemo](https://github.com/FeDemo)的推荐），喜欢折腾的朋友可以看这篇：[《为博客添加 Gitalk 评论插件》](https://flyingwzb.github.io/2018/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)。 我已经在`_config.yml` 配置就好了，只需要填写参数可以了。
+> 很对人反映 Disqus 评论插件加载不出来，因为 Disqus 在国内加载缓慢，所以我新集成了 Gitalk 评论插件（感谢[@FeDemo](https://github.com/FeDemo)的推荐），喜欢折腾的朋友可以看这篇：[《为博客添加 Gitalk 评论插件》](https://wscaoshuai.github.io/2018/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)。 我已经在`_config.yml` 配置就好了，只需要填写参数可以了。
 
 #### 网站统计
 
@@ -215,7 +215,7 @@ friends: [
 
 再次进入你的主页，
 
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/readme-home.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/readme-home.png?raw=true)
 
 恭喜你，你的个人博客搭建完成了😀。
 
@@ -227,25 +227,25 @@ friends: [
 
 ## 创建
 文章统一放在网站根目录下的 `_posts` 的文件夹中。
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-008.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-008.png?raw=true)
 
 创建一个文件
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-009.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-009.png?raw=true)
 
 在下面写文章，和标题，还能实时预览，最后提交保存就能看到自己的新文章了。
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-010.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-010.png?raw=true)
 
 
 ## 格式
 每一篇文章文件命名采用的是`2018-01-01-Hello-2018.md`时间+标题的形式，空格用`-`替换连接。
 
-文件的格式是 `.md` 的 [**MarkDown**](https://flyingwzb.github.io/2018/01/05/Markdown%E4%BD%BF%E7%94%A8/) 文件。
+文件的格式是 `.md` 的 [**MarkDown**](https://wscaoshuai.github.io/2018/01/05/Markdown%E4%BD%BF%E7%94%A8/) 文件。
 
 我们的博客文章格式采用是 **MarkDown**+ **YAML** 的方式。
 
 [**YAML**](http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt) 就是我们配置 `_config`文件用的语言。
 
-[**MarkDown**](https://flyingwzb.github.io/2018/01/05/Markdown%E4%BD%BF%E7%94%A8/) 是一种轻量级的「标记语言」，很简单。[花半个小时看一下](https://flyingwzb.github.io/2018/01/05/Markdown%E4%BD%BF%E7%94%A8/)就能熟练使用了
+[**MarkDown**](https://wscaoshuai.github.io/2018/01/05/Markdown%E4%BD%BF%E7%94%A8/) 是一种轻量级的「标记语言」，很简单。[花半个小时看一下](https://wscaoshuai.github.io/2018/01/05/Markdown%E4%BD%BF%E7%94%A8/)就能熟练使用了
 
 大概就是这么一个结构。
 
@@ -269,7 +269,7 @@ friends: [
 ```
 
 按格式创建文章后，提交保存。进入你的博客主页，新的文章将会出现在你的主页上.
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/readme-home.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/readme-home.png?raw=true)
 
 到这里，恭喜你！
 
@@ -281,7 +281,7 @@ friends: [
 在首页可以看到这些特色标签，当你的文章出现相同标签（默认相同的**标签数量大于1**），才会自动生成。
 
 所以当你只放一篇文章的时候是不会出现标签的。
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-011.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-011.png?raw=true)
 
 建站的初期，博客比较少，若你想直接在首页生成比较多的标签。你可以在 `_congfig.yml`中找到这段：
 
@@ -297,7 +297,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 
 # 自定义域名
-搭建好博客之后 你可能不想直接使用 [flyingwzb.github.io](http://flyingwzb.github.io) 这么长的博客域名吧, 想换成想 [flyingd.cn](https://flyingwzb.github.io) 这样简短的域名。那我们开始吧！
+搭建好博客之后 你可能不想直接使用 [flyingwzb.github.io](http://flyingwzb.github.io) 这么长的博客域名吧, 想换成想 [flyingd.cn](https://wscaoshuai.github.io) 这样简短的域名。那我们开始吧！
 
 #### 购买域名
 首先，你必须购买一个自己的域名。
@@ -320,7 +320,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 ![](http://upload-images.jianshu.io/upload_images/2178672-9a75bba50d1b14d7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 选择你注册好的域名，点击解析
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-012.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-012.png?raw=true)
 
 添加解析
 
@@ -331,7 +331,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 另一个为 `@`, 代表 `flyingd.cn`
 
 记录值就是我们博客的IP地址，是 GitHub Pagas 在美国的服务器的地址 `185.199.111.153`
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-013.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-013.png?raw=true)
 
 可以通过 [这个网站](http://ip.chinaz.com/)  或者直接在终端输入`ping 你的地址`，查看博客的IP
 
@@ -346,10 +346,10 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 最后一步，只需要修改 我们github仓库下的 **CNAME** 文件。
 
 选择 **CNAME** 文件
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-014.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-014.png?raw=true)
 
 使用的注册的域名进行替换,然后提交保存
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-015.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-015.png?raw=true)
 
 这时，输入你自己的域名，就可以解析到你的主页了。
 
@@ -370,13 +370,13 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 # 修改个人介绍
 
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-016.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-016.png?raw=true)
 
 修改个人介绍需要修改根目录下的 `about.html` 文件
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-016.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-016.png?raw=true)
 
 看不懂 HTML 标签？没关系，对照着修改就好了~ 还有注意这个有中英介绍
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-016.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-016.png?raw=true)
 
 # 常见问题
 
@@ -414,13 +414,13 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 # Star
 
-若本教程顺利帮你搭建了自己的个人博客，请不要 **害羞**，给我的 [github仓库](https://github.com/flyingwzb/flyingwzb.github.io) 点个 **star** 吧！
+若本教程顺利帮你搭建了自己的个人博客，请不要 **害羞**，给我的 [github仓库](https://github.com/wscaoshuai/wscaoshuai.github.io) 点个 **star** 吧！
 
 因为最近发现 Fork 将近破百，加上直接 Clone 仓库的，保守估计已经帮助上百人成功的搭建了自己的博客，~~可是 Star 却仅仅只有 **12**！可能还是做的不够好吧！~~现在已经破百了，感谢大家的Star！
 
-### **别无他求，点个 [Star](https://github.com/flyingwzb/flyingwzb.github.io) 吧**！
+### **别无他求，点个 [Star](https://github.com/wscaoshuai/wscaoshuai.github.io) 吧**！
 
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-017.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-017.png?raw=true)
 
 **心满意足！**
 
@@ -428,12 +428,12 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 #### 修改网站的 **icon**
 
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-018.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-018.png?raw=true)
 
 要修改如图所示的网站 **icon**：
 
 在博客 `img` 目录下找到并替换 `favicon.ico` 这个图标即可，图标尺寸为`32x32`。
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-019.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-019.png?raw=true)
 
 
 #### 修改主页的座右铭
@@ -441,14 +441,14 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 最近有不少小伙伴私信我：**如何修改主页的座右铭？**
 
 就是这个：
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-020.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-020.png?raw=true)
 
 很简单，找到博客目录下的 **index.html** 文件，修改这句话就可以了。
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-021.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-021.png?raw=true)
 
 #### 如何在博客文章中上插入图片
 
-博客的文章用的是 MarkDown 格式，如果没用过 MarkDown 真的 强烈推荐 [花半个小时学习一下](https://flyingwzb.github.io/2018/01/05/use-markdown/)。
+博客的文章用的是 MarkDown 格式，如果没用过 MarkDown 真的 强烈推荐 [花半个小时学习一下](https://wscaoshuai.github.io/2018/01/05/use-markdown/)。
 
 MarkDown 中添加图片的形式是 :`![](图片的URL)`
 
@@ -484,7 +484,7 @@ MarkDown 中添加图片的形式是 :`![](图片的URL)`
 对博客中的所有图片进行压缩：
 
 看看压缩结果，最高的一张压缩了78.7%，这简直是太可怕了！
-![https://tinypng.com/](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-025.png?raw=true)
+![https://tinypng.com/](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-025.png?raw=true)
 
 好了，现在个人博客的加载速度估计要起飞了~
 
@@ -493,10 +493,10 @@ MarkDown 中添加图片的形式是 :`![](图片的URL)`
 新增网站访问量的PV、UV统计，采用[不蒜子](http://ibruce.info/2015/04/04/busuanzi/)提供的js，动态引入即可实现统计功能。
 
 在`footer.html`文件中加入引入相关配置
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-022.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-022.png?raw=true)
 
 统计网站PV、UV统计效果如下：
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-023.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-023.png?raw=true)
 
 
 ### JS实现文章打赏功能
@@ -532,7 +532,7 @@ MarkDown 中添加图片的形式是 :`![](图片的URL)`
 ```
 
 刷新页面，点击博客的每一篇文章即可看到我的博客打赏码（喜欢请打赏），如下：
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-024.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-024.png?raw=true)
 
 #### 最后
 

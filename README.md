@@ -1,21 +1,20 @@
 
-
-![](https://raw.githubusercontent.com/flyingwzb/flyingwzb.github.io/master/img/readme-home.png)
+<!-- ![](https://raw.githubusercontent.com/flyingwzb/flyingwzb.github.io/master/img/readme-home.png)
 
 [![Build Status](https://travis-ci.org/flyingwzb/flyingwzb.github.io.svg?branch=master)](https://travis-ci.org/flyingwzb/flyingwzb.github.io)
 [![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-flyingwzb-flyingwzb-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/flyingwzb/flyingwzb.github.io.svg?style=flat)](https://github.com/flyingwzb/flyingwzb.github.io/issues)
+[![GitHub issues](https://img.shields.io/github/issues/flyingwzb/flyingwzb.github.io.svg?style=flat)](https://github.com/wscaoshuai/wscaoshuai.github.io/issues)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/flyingwzb/flyingwzb.github.io.svg?style=social&label=Star)](https://github.com/flyingwzb/flyingwzb.github.io)
-[![](https://img.shields.io/github/forks/flyingwzb/flyingwzb.github.io.svg?style=social&label=Fork)](https://github.com/flyingwzb/flyingwzb.github.io)
+[![](https://img.shields.io/github/stars/flyingwzb/flyingwzb.github.io.svg?style=social&label=Star)](https://github.com/wscaoshuai/wscaoshuai.github.io)
+[![](https://img.shields.io/github/forks/flyingwzb/flyingwzb.github.io.svg?style=social&label=Fork)](https://github.com/wscaoshuai/wscaoshuai.github.io)
 
 
 博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 
  
-更为详细的教程戳这 [《利用GitHubPages快速搭建个人博客》](https://flyingwzb.github.io/2018/01/02/quickly-build-blog/) 或 [wiki](https://github.com/flyingwzb/flyingwzb.github.io/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2)
+更为详细的教程戳这 [《利用GitHubPages快速搭建个人博客》](https://wscaoshuai.github.io/2018/01/02/quickly-build-blog/) 或 [wiki](https://github.com/wscaoshuai/wscaoshuai.github.io/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2) -->
 
 >
-### [查看博客戳这里 👆](https://flyingwzb.github.io)
+### [查看博客戳这里 👆](https://wscaoshuai.github.io)
 
 
 
@@ -60,8 +59,8 @@ SEOTitle: 曹帅的博客 | Cao Shuai Blog	 # SEO 标题
 description: "Hey"	   	                 # 随便说点，描述一下
 
 # SNS settings      
-github_username: flyingwzb               # 你的github账号
-jianshu_username: e71990ada2fd           # 你的简书ID。
+github_username: wscaoshuai               # 你的github账号
+jianshu_username: 0a67893c9ffa           # 你的简书ID。
 
 # Build settings
 # paginate: 10                           # 一页你准备放几篇文章
@@ -92,8 +91,8 @@ yaml 头文件长这样:
 
 ### 侧边栏
 
-- 看右边:
-![](https://raw.githubusercontent.com/flyingwzb/flyingwzb.github.io/master/img/readme-side.png)
+<!-- - 看右边:
+![](https://raw.githubusercontent.com/flyingwzb/flyingwzb.github.io/master/img/readme-side.png) -->
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
@@ -200,7 +199,7 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 ```yaml
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: flyingwzb
+# disqus_username: flyingwzb
 ```
 
 #### Gitalk
@@ -211,7 +210,7 @@ disqus_username: flyingwzb
 
 **使用：**
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](https://flyingwzb.github.io/2018/01/04/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](https://wscaoshuai.github.io/2018/01/04/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
 
 
 ### Analytics
@@ -232,10 +231,10 @@ ga_domain: auto			# 默认的是 auto, 这里我是自定义了的域名，你�
 新增网站访问量的PV、UV统计，采用[不蒜子](http://ibruce.info/2015/04/04/busuanzi/)提供的js，动态引入即可实现统计功能。
 
 在`footer.html`文件中加入引入相关配置
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-022.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-022.png?raw=true)
 
 统计网站PV、UV统计效果如下：
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-023.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-023.png?raw=true)
 
 
 ### JS实现文章打赏功能
@@ -270,7 +269,7 @@ ga_domain: auto			# 默认的是 auto, 这里我是自定义了的域名，你�
 ```
 
 刷新页面，点击博客的每一篇文章即可看到我的博客打赏码（喜欢请打赏），如下：
-![](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/img/blog/blog-024.png?raw=true)
+![](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/img/blog/blog-024.png?raw=true)
 
 ### Customization
 
@@ -322,7 +321,7 @@ ga_domain: auto			# 默认的是 auto, 这里我是自定义了的域名，你�
 
 ## License
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/flyingwzb/flyingwzb.github.io/blob/master/LICENSE)。
+遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/wscaoshuai/wscaoshuai.github.io/blob/master/LICENSE)。
 
 
 

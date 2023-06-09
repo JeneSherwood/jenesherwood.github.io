@@ -1,14 +1,14 @@
 {
     "name": "w-blog",
     "title": "Cao Shuai Blog",
-    "author": "Cao Shuai <wzbcode@163.com>",
+    "author": "Cao Shuai <1475001103@qq.com.com>",
     "version": "1.7.0",
-    "homepage": "https://flyingwzb.github.io",
+    "homepage": "https://wscaoshuai.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/flyingwzb/flyingwzb.github.io"
+        "url": "https://github.com/wscaoshuai/wscaoshuai.github.io"
     },
-    "bugs": "https://github.com/flyingwzb/flyingwzb.github.io/issues",
+    "bugs": "https://github.com/wscaoshuai/wscaoshuai.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

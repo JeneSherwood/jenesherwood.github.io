@@ -3,7 +3,7 @@ layout:     post
 title:      阿里云ECS服务器centos7系统安装MongoDB
 subtitle:   Linux系统软件安装
 date:       2019-08-01
-author:     Will Wang
+author:     Cao Shuai
 header-img: img/post-bg-article.jpg
 catalog: true
 tags:

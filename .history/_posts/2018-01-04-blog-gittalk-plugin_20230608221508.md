@@ -113,7 +113,7 @@ Gitalk 需要一个 **Github Application**，[点击这里申请](https://github
 
 ![](https://ws4.sinaimg.cn/large/006tKfTcgy1fmm8a0i0jkj30rr0ct42t.jpg)
 
-当然，你也可以手动创建issue作为 gitalk评论容器。只要有 `Gitalk` 标签 和 `id` 对应标签就可以。比我我自己创建的 [About issue](https://github.com/flyingwzb/flyingwzb.github.io/issues/2) 。
+当然，你也可以手动创建issue作为 gitalk评论容器。只要有 `Gitalk` 标签 和 `id` 对应标签就可以。比我我自己创建的 [About issue](https://github.com/wscaoshuai/wscaoshuai.github.io/issues/2) 。
 
 # 结语
 
@@ -121,4 +121,4 @@ Gitalk 需要一个 **Github Application**，[点击这里申请](https://github
 
 当然，也有解决办法，这篇 [自动初始化 Gitalk 和 Gitment 评论](https://draveness.me/git-comments-initialize)，就解决了这个问题。
 
-最后，[给个 star 吧](https://github.com/flyingwzb/flyingwzb.github.io)~
+最后，[给个 star 吧](https://github.com/wscaoshuai/wscaoshuai.github.io)~
