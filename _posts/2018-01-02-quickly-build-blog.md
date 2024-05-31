@@ -124,7 +124,7 @@ SEOTitle: 我的博客 | My Blog    	    # 显示在浏览器上搜索的时候�
 header-img: img/post-bg-rwd.jpg  	# 显示在首页的背景图片
 email: You@gmail.com	            # 个人邮箱
 description: "You Blog"  			# 网站介绍
-keyword: "Cao Shuai, Cao Shuai Blog, 王志彪的博客, flyingwzb, 王志彪, Java, golang" #关键词
+keyword: "Cao Shuai, Cao Shuai Blog, 曹帅的博客, flyingwzb, 曹帅, Java, golang" #关键词
 url: "https://wscaoshuai.github.io"  # 这个就是填写你的博客地址
 baseurl: ""                         # 这个我们不用填写
 ```
